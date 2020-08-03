@@ -2,7 +2,7 @@ import './styles/styles.css';
 import UI from './UI';
 
 document.addEventListener('DOMContentLoaded',async () => {
-    const ui = new UI();
+    //const ui = new UI();
    //await ui.renderDonations();
 });
 
@@ -13,9 +13,9 @@ document.getElementById('donation-form')
     const image = await document.getElementById('image').files;
 
     const formData = new FormData();
-    await formData.append('image',image[0]);
-    await formData.append('email',email);
-    await formData.append('value',value);
+    formData.append('image',image[0]);
+    formData.append('email',email);
+    formData.append('value',value);
 
     //instancio UI y envio el formulario con los datos
     const ui = new UI();

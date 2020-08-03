@@ -11,6 +11,9 @@ class DonationService{
     }
 
     async addDonation(donation){
+        for (var value of donation.values()) {
+            console.log(value); 
+         }
         const response = await fetch(this.URL + '/addImage',{
             method: 'POST',
             body: donation
