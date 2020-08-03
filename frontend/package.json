@@ -1,0 +1,32 @@
+{
+  "name": "frontlab3",
+  "version": "1.0.0",
+  "description": "Practica de una App de donaciones con Nodejs, express, API Rest",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jehernandezv/Lab3Distribuidos.git"
+  },
+  "author": "Jhonn hernandez - Cristian lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jehernandezv/Lab3Distribuidos/issues"
+  },
+  "homepage": "https://github.com/jehernandezv/Lab3Distribuidos#readme",
+  "dependencies": {
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.4",
+    "timeago.js": "^4.0.2",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
