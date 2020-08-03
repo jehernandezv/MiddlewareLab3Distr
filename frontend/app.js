@@ -2,8 +2,8 @@ import './styles/styles.css';
 import UI from './UI';
 
 document.addEventListener('DOMContentLoaded',async () => {
-    //const ui = new UI();
-   //await ui.renderDonations();
+//    const ui = new UI();
+//    await ui.renderDonations();
 });
 
 document.getElementById('donation-form')

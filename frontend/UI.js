@@ -15,7 +15,7 @@ class UI{
            div.innerHTML=`<div class="card m-2">
            <div class="row">
                <div class="col-md-4">
-                   <img src="http://localhost:3000/${donation.url_image}" alt="" class="img-fluid"/>
+                   <img src="http://localhost:4000/${donation.url_image}" alt="" class="img-fluid"/>
                </div>
                <div class="col-md-8">
                    <div class="card-block px-2">
@@ -42,7 +42,7 @@ class UI{
     }
 
     renderMessage(){
-
+       
     }
 }
 
